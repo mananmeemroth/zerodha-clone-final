@@ -1,0 +1,9 @@
+.signup-page{display:flex;justify-content:center;padding:3rem 1rem}
+.signup-card{width:100%;max-width:420px;background:#fff;padding:2rem;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.08)}
+.signup-card h1{margin:0 0 1rem;font-size:1.4rem}
+.signup-card form{display:flex;flex-direction:column;gap:.75rem}
+.signup-card label{display:flex;flex-direction:column;font-size:.9rem;color:#111}
+.signup-card input[type=text], .signup-card input[type=email], .signup-card input[type=password]{padding:.6rem .75rem;border:1px solid #ddd;border-radius:6px}
+.signup-card .checkbox{flex-direction:row;align-items:center;gap:.5rem}
+.signup-card .btn{margin-top:.5rem;padding:.6rem .75rem;border:none;background:#1e90ff;color:#fff;border-radius:6px;cursor:pointer}
+.err{color:#c33;font-size:.8rem;margin-top:.25rem}
